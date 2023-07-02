@@ -8,7 +8,12 @@ import logo from './logo.svg';
 
 function PageHeader() {
   return (
-        
+    <div>
+        <nav>
+          <Link to="/"> A </Link>
+          <Link to="/AboutUs"> B </Link>
+          <Link to="/Facilities"> C </Link>
+        </nav>
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid style={{
           backgroundColor: 'Teal', color:'White'
@@ -21,7 +26,7 @@ function PageHeader() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" style={{color: 'White' }}>
           <Nav className="me-auto">
-            <Nav.Link href="https://saad-rahman-warsi.github.io/sciplanet/#/AboutUs" style={{color: 'White'}}>About Us</Nav.Link>
+            <Nav.Link to="/AboutUs" style={{color: 'White'}}>About Us</Nav.Link>
 
             <NavDropdown title={ <span className="text-white my-auto">Explore</span> } id="basic-nav-dropdown">
               <NavDropdown.Item to="/Facilities">Learn Experiments</NavDropdown.Item>
@@ -41,7 +46,7 @@ function PageHeader() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-    
+    </div>
   );
 }
 
