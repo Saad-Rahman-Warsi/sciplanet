@@ -16,7 +16,7 @@ function PageHeader() {
             <Link to="/AboutUs">B</Link>
             <Link to="/Facilities">C</Link>
       </nav>
-      <Outlet />
+      
 
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid style={{
