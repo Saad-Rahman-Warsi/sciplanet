@@ -14,22 +14,22 @@ function PageHeader() {
     <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/"></Link>
           </li>
           <li>
-            <Link to="/AboutUs">AboutUs</Link>
+            <Link to="/AboutUs"></Link>
           </li>
           <li>
-            <Link to="/Facilities">Facilities</Link>
+            <Link to="/Facilities"></Link>
           </li>
         </ul>
       </nav>
-      <Outlet />
+
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid style={{
           backgroundColor: 'Teal', color:'White'
         }}>
-        <Navbar.Brand href="" style={{color: '#33CEFF'}}>
+        <Navbar.Brand href="https://saad-rahman-warsi.github.io/sciplanet/" style={{color: '#33CEFF'}}>
             <img alt="" src={logo} width="60"  className="App-logo"  />{' '}
             <b>SciPlanet</b>
         </Navbar.Brand>
