@@ -21,7 +21,7 @@ function PageHeader() {
         }}>
         <Navbar.Brand href="https://saad-rahman-warsi.github.io/sciplanet/" style={{color: '#33CEFF'}}>
             <img alt="" src={logo} width="60"  className="App-logo"  />{' '}
-            <b>Sci Planet</b>
+            <b>SciPlanet</b>
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
