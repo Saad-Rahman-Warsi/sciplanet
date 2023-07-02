@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sciplanet/static/css/main.868f2795.css",
-    "main.js": "/sciplanet/static/js/main.0e8b7039.js",
+    "main.js": "/sciplanet/static/js/main.2a825aad.js",
     "static/js/787.a31b7f33.chunk.js": "/sciplanet/static/js/787.a31b7f33.chunk.js",
     "static/media/homeimg1.jpg": "/sciplanet/static/media/homeimg1.42adc4cb1c109ba6cb8c.jpg",
     "static/media/homeimg6.jpg": "/sciplanet/static/media/homeimg6.6e8bedba69887c2c2e3e.jpg",
@@ -12,11 +12,11 @@
     "static/media/logo.svg": "/sciplanet/static/media/logo.7670cd18d273301b55ecdce28cde94a1.svg",
     "index.html": "/sciplanet/index.html",
     "main.868f2795.css.map": "/sciplanet/static/css/main.868f2795.css.map",
-    "main.0e8b7039.js.map": "/sciplanet/static/js/main.0e8b7039.js.map",
+    "main.2a825aad.js.map": "/sciplanet/static/js/main.2a825aad.js.map",
     "787.a31b7f33.chunk.js.map": "/sciplanet/static/js/787.a31b7f33.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.868f2795.css",
-    "static/js/main.0e8b7039.js"
+    "static/js/main.2a825aad.js"
   ]
 }
