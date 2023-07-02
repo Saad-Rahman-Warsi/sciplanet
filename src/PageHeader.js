@@ -26,9 +26,9 @@ function PageHeader() {
             <Nav.Link href="" style={{color: 'White'}}><Link to="/AboutUs">About Us</Link></Nav.Link>
 
             <NavDropdown title={ <span className="text-white my-auto">Explore</span> } id="basic-nav-dropdown">
-              <NavDropdown.Item href="/Facilities">Learn Experiments</NavDropdown.Item>
-              <NavDropdown.Item href="/Facilities">Sample Analysis</NavDropdown.Item>
-              <NavDropdown.Item href="/Facilities">Use Advanced Facilities</NavDropdown.Item>
+              <NavDropdown.Item href="#/Facilities">Learn Experiments</NavDropdown.Item>
+              <NavDropdown.Item href="#/Facilities">Sample Analysis</NavDropdown.Item>
+              <NavDropdown.Item href="#/Facilities">Use Advanced Facilities</NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown title={ <span className="text-white my-auto">Avail Services</span> } id="basic-nav-dropdown">
