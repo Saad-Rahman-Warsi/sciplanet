@@ -11,6 +11,20 @@ import logo from './logo.svg';
 function PageHeader() {
   return (
     <div>
+    <nav>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/AboutUs">AboutUs</Link>
+          </li>
+          <li>
+            <Link to="/Facilities">Facilities</Link>
+          </li>
+        </ul>
+      </nav>
+      <Outlet />
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid style={{
           backgroundColor: 'Teal', color:'White'
