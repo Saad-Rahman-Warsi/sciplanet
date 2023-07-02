@@ -22,7 +22,7 @@ function PageHeader() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" style={{color: 'White' }}>
           <Nav className="me-auto">
-            <Nav.Link to="/AboutUs" style={{color: 'White'}}><Link to="/AboutUs">About Us</Link></Nav.Link>
+            <Nav.Link to="https://saad-rahman-warsi.github.io/sciplanet/#/AboutUs" style={{color: 'White'}}>About Us</Nav.Link>
 
             <NavDropdown title={ <span className="text-white my-auto">Explore</span> } id="basic-nav-dropdown">
               <NavDropdown.Item to="/Facilities"><Link to="/Facilities">Learn Experiments</Link></NavDropdown.Item>
