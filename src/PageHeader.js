@@ -51,7 +51,7 @@ function PageHeader() {
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/Facilities" element={<Facilities />} />
         </Route>
-    </Router>
+    </HashRouter>
   );
 }
 
