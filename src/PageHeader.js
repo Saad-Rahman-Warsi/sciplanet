@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Outlet, Link } from "react-router-dom";
 
 import './App.css';
 import logo from './logo.svg';
@@ -20,7 +21,7 @@ function PageHeader() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" style={{color: 'White' }}>
           <Nav className="me-auto">
-            <Nav.Link href="/AboutUs" style={{color: 'White'}}>About Us</Nav.Link>
+            <Nav.Link href="" style={{color: 'White'}}><Link to="/AboutUs">About Us</Link></Nav.Link>
 
             <NavDropdown title={ <span className="text-white my-auto">Explore</span> } id="basic-nav-dropdown">
               <NavDropdown.Item href="/Facilities">Learn Experiments</NavDropdown.Item>
