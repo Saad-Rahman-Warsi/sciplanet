@@ -14,6 +14,10 @@ import logo from './logo.svg';
 function PageHeader() {
   return (
     <HashRouter>
+    <Route exact path="/" element={<Home />}/>
+          <Route path="/AboutUs" element={<AboutUs />} />
+          <Route path="/Facilities" element={<Facilities />} />
+        
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid style={{
           backgroundColor: 'Teal', color:'White'
@@ -46,11 +50,7 @@ function PageHeader() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-    <Route exact path="/" element={<Home />}>
-          <Route index element={<Home />} />
-          <Route path="/AboutUs" element={<AboutUs />} />
-          <Route path="/Facilities" element={<Facilities />} />
-        </Route>
+    
     </HashRouter>
   );
 }
