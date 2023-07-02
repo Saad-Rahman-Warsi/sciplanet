@@ -39,7 +39,7 @@ function SearchFilter() {
 function Facilities() {
   return (
     <div>
-      <PageHeader />
+
       <Container fluid>
         <Row>
           <Col xs={3}> <SearchFilter /> </Col>
