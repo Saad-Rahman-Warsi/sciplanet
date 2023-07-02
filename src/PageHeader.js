@@ -20,12 +20,12 @@ function PageHeader() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" style={{color: 'White' }}>
           <Nav className="me-auto">
-            <Nav.Link href="https://saad-rahman-warsi.github.io/sciplanet/AboutUs" style={{color: 'White'}}>About Us</Nav.Link>
+            <Nav.Link href="/AboutUs" style={{color: 'White'}}>About Us</Nav.Link>
 
             <NavDropdown title={ <span className="text-white my-auto">Explore</span> } id="basic-nav-dropdown">
-              <NavDropdown.Item href="https://saad-rahman-warsi.github.io/sciplanet/Facilities">Learn Experiments</NavDropdown.Item>
-              <NavDropdown.Item href="https://saad-rahman-warsi.github.io/sciplanet/Facilities">Sample Analysis</NavDropdown.Item>
-              <NavDropdown.Item href="https://saad-rahman-warsi.github.io/sciplanet/Facilities">Use Advanced Facilities</NavDropdown.Item>
+              <NavDropdown.Item href="/Facilities">Learn Experiments</NavDropdown.Item>
+              <NavDropdown.Item href="/Facilities">Sample Analysis</NavDropdown.Item>
+              <NavDropdown.Item href="/Facilities">Use Advanced Facilities</NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown title={ <span className="text-white my-auto">Avail Services</span> } id="basic-nav-dropdown">
