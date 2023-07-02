@@ -12,9 +12,9 @@ function PageHeader() {
       <Container fluid style={{
           backgroundColor: 'Teal', color:'White'
         }}>
-        <Navbar.Brand href="http://localhost:3000" style={{color: '#33CEFF'}}>
+        <Navbar.Brand href="https://saad-rahman-warsi.github.io/sciplanet/" style={{color: '#33CEFF'}}>
             <img alt="" src={logo} width="60"  className="App-logo"  />{' '}
-            <b>SciPlanet</b>
+            <b>Sci Planet</b>
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -23,9 +23,9 @@ function PageHeader() {
             <Nav.Link to="/AboutUs" style={{color: 'White'}}>About Us</Nav.Link>
 
             <NavDropdown title={ <span className="text-white my-auto">Explore</span> } id="basic-nav-dropdown">
-              <NavDropdown.Item href="http://localhost:3000/Facilities">Learn Experiments</NavDropdown.Item>
-              <NavDropdown.Item href="http://localhost:3000/Facilities">Sample Analysis</NavDropdown.Item>
-              <NavDropdown.Item href="http://localhost:3000/Facilities">Use Advanced Facilities</NavDropdown.Item>
+              <NavDropdown.Item to="/Facilities">Learn Experiments</NavDropdown.Item>
+              <NavDropdown.Item to="/Facilities">Sample Analysis</NavDropdown.Item>
+              <NavDropdown.Item to="/Facilities">Use Advanced Facilities</NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown title={ <span className="text-white my-auto">Avail Services</span> } id="basic-nav-dropdown">
