@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import Button from 'react-bootstrap/Button';
 import { Outlet, Link } from "react-router-dom";
 
 import './App.css';
@@ -9,6 +10,7 @@ import logo from './logo.svg';
 
 function PageHeader() {
   return (
+    <div>
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid style={{
           backgroundColor: 'Teal', color:'White'
@@ -41,6 +43,8 @@ function PageHeader() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    <Button variant="primary"><Link to="/AboutUs">AboutUs</Link></Button>{' '}
+    </div>
   );
 }
 
