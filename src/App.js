@@ -7,6 +7,11 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Button from 'react-bootstrap/Button';
 import { Outlet, Link } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
+
+import Home from "./Home";
+import AboutUs from "./AboutUs";
+import Facilities from "./Facilities";
 
 
 function PageHeader1() {
