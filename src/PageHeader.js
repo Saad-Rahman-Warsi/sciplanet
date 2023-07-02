@@ -11,19 +11,7 @@ import logo from './logo.svg';
 function PageHeader() {
   return (
     <div>
-    <nav>
-        <ul>
-          <li>
-            <Link to="/"></Link>
-          </li>
-          <li>
-            <Link to="/AboutUs"></Link>
-          </li>
-          <li>
-            <Link to="/Facilities"></Link>
-          </li>
-        </ul>
-      </nav>
+    
 
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid style={{
@@ -57,6 +45,7 @@ function PageHeader() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    <Outlet />
     <Button variant="primary"><Link to="/AboutUs">AboutUs</Link></Button>{' '}
     </div>
   );
