@@ -20,7 +20,7 @@ function PageHeader() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" style={{color: 'White' }}>
           <Nav className="me-auto">
-            <Nav.Link href="http://localhost:3000/AboutUs" style={{color: 'White'}}>About Us</Nav.Link>
+            <Nav.Link to="/AboutUs" style={{color: 'White'}}>About Us</Nav.Link>
 
             <NavDropdown title={ <span className="text-white my-auto">Explore</span> } id="basic-nav-dropdown">
               <NavDropdown.Item href="http://localhost:3000/Facilities">Learn Experiments</NavDropdown.Item>

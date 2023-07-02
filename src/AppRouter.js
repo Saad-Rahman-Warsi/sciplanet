@@ -7,9 +7,11 @@ function AppRouter() {
   return (
     <HashRouter>
       <Routes>
+        <Route exact path="/" element={<Home />}>
           <Route index element={<Home />} />
-          <Route path="AboutUs" element={<AboutUs />} />
-          <Route path="Facilities" element={<Facilities />} />
+          <Route path="/AboutUs" element={<AboutUs />} />
+          <Route path="/Facilities" element={<Facilities />} />
+        </Route>
       </Routes>
     </HashRouter>
   );
