@@ -5,13 +5,13 @@ import Facilities from "./Facilities";
 
 function AppRouter() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
           <Route index element={<Home />} />
           <Route path="AboutUs" element={<AboutUs />} />
           <Route path="Facilities" element={<Facilities />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
