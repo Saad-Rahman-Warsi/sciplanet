@@ -12,7 +12,7 @@ function PageHeader() {
       <Container fluid style={{
           backgroundColor: 'Teal', color:'White'
         }}>
-        <Navbar.Brand href="http://localhost:3000" style={{color: '#33CEFF'}}>
+        <Navbar.Brand href="https://saad-rahman-warsi.github.io/sciplanet/" style={{color: '#33CEFF'}}>
             <img alt="" src={logo} width="60"  className="App-logo"  />{' '}
             <b>SciPlanet</b>
         </Navbar.Brand>
@@ -20,12 +20,12 @@ function PageHeader() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" style={{color: 'White' }}>
           <Nav className="me-auto">
-            <Nav.Link href="http://localhost:3000/AboutUs" style={{color: 'White'}}>About Us</Nav.Link>
+            <Nav.Link href="https://saad-rahman-warsi.github.io/sciplanet/AboutUs" style={{color: 'White'}}>About Us</Nav.Link>
 
             <NavDropdown title={ <span className="text-white my-auto">Explore</span> } id="basic-nav-dropdown">
-              <NavDropdown.Item href="http://localhost:3000/Facilities">Learn Experiments</NavDropdown.Item>
-              <NavDropdown.Item href="http://localhost:3000/Facilities">Sample Analysis</NavDropdown.Item>
-              <NavDropdown.Item href="http://localhost:3000/Facilities">Use Advanced Facilities</NavDropdown.Item>
+              <NavDropdown.Item href="https://saad-rahman-warsi.github.io/sciplanet/Facilities">Learn Experiments</NavDropdown.Item>
+              <NavDropdown.Item href="https://saad-rahman-warsi.github.io/sciplanet/Facilities">Sample Analysis</NavDropdown.Item>
+              <NavDropdown.Item href="https://saad-rahman-warsi.github.io/sciplanet/Facilities">Use Advanced Facilities</NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown title={ <span className="text-white my-auto">Avail Services</span> } id="basic-nav-dropdown">
