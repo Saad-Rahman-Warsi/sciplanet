@@ -5,7 +5,7 @@ function AboutUs() {
   return (
     <div>
     <PageHeader />
-     <h1> AboutUs </h1>
+     <p> About Us </p>
       </div>
   );
 }
