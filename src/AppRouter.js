@@ -11,6 +11,7 @@ function AppRouter() {
           <Route index element={<Home />} />
           <Route path="AboutUs" element={<AboutUs />} />
           <Route path="Facilities" element={<Facilities />} />
+          </Route>
       </Routes>
     </HashRouter>
   );
