@@ -13,7 +13,7 @@ import logo from './logo.svg';
 
 function PageHeader() {
   return (
-    <Router>
+    <HashRouter>
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid style={{
           backgroundColor: 'Teal', color:'White'
