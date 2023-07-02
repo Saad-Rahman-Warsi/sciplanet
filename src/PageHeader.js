@@ -3,11 +3,17 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
+import { HashRouter, Routes, Route } from "react-router-dom";
+import Home from "./Home";
+import AboutUs from "./AboutUs";
+import Facilities from "./Facilities";
+
 import './App.css';
 import logo from './logo.svg';
 
 function PageHeader() {
   return (
+    <Router>
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid style={{
           backgroundColor: 'Teal', color:'White'
@@ -40,6 +46,12 @@ function PageHeader() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    <Route exact path="/" element={<Home />}>
+          <Route index element={<Home />} />
+          <Route path="/AboutUs" element={<AboutUs />} />
+          <Route path="/Facilities" element={<Facilities />} />
+        </Route>
+    </Router>
   );
 }
 
