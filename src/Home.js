@@ -4,6 +4,7 @@ import Col from 'react-bootstrap/Col';
 import Carousel from 'react-bootstrap/Carousel';
 import PageHeader from './PageHeader.js';
 import PageFooter from './PageFooter.js';
+import {Outlet} from "react-router-dom";
 
 import img1 from './images/homeimg1.jpg';
 import img2 from './images/homeimg2.jpg';
@@ -69,6 +70,7 @@ function Home() {
       </Container>
       <br/>
       <PageFooter />
+      <Outlet />
      </div>
   );
 }

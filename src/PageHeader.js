@@ -45,7 +45,7 @@ function PageHeader() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-    <Outlet />
+    
     <Button variant="primary"><Link to="/AboutUs">AboutUs</Link></Button>{' '}
     </div>
   );
