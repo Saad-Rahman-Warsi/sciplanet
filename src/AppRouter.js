@@ -9,8 +9,8 @@ function AppRouter() {
       <Routes>
         <Route exact path="/" element={<Home />}>
           <Route index element={<Home />} />
-          <Route path="/AboutUs" element={<AboutUs />} />
-          <Route path="/Facilities" element={<Facilities />} />
+          <Route exact path="/AboutUs" element={<AboutUs />} />
+          <Route exact path="/Facilities" element={<Facilities />} />
         </Route>
       </Routes>
     </HashRouter>
