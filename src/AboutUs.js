@@ -4,7 +4,8 @@ import PageHeader from './PageHeader.js';
 function AboutUs() {
   return (
     <div>
-     <p> About Us </p>
+    <PageHeader />
+     <h1> AboutUs </h1>
       </div>
   );
 }
