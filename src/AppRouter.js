@@ -2,9 +2,11 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./Home";
 import AboutUs from "./AboutUs";
 import Facilities from "./Facilities";
+import {Outlet} from "react-router-dom";
 
 function AppRouter() {
   return (
+    <div>
     <HashRouter>
       <Routes>
           <Route path="/" element={<Home />}>
@@ -14,6 +16,8 @@ function AppRouter() {
           </Route>
       </Routes>
     </HashRouter>
+    <Outlet />
+    </div>
   );
 }
 

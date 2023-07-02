@@ -11,12 +11,7 @@ import logo from './logo.svg';
 function PageHeader() {
   return (
     <div>
-    <nav>
-            <Link to="/"></Link>
-            <Link to="/AboutUs"></Link>
-            <Link to="/Facilities"></Link>
-      </nav>
-      <Outlet />
+    
 
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid style={{

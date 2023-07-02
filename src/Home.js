@@ -70,7 +70,6 @@ function Home() {
       </Container>
       <br/>
       <PageFooter />
-      <Outlet />
      </div>
   );
 }
