@@ -10,13 +10,7 @@ import logo from './logo.svg';
 
 function PageHeader() {
   return (
-    <div>
-    <nav>
-            <Link to="/">A</Link>
-            <Link to="/AboutUs">B</Link>
-            <Link to="/Facilities">C</Link>
-      </nav>
-      
+    <div>  
 
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid style={{

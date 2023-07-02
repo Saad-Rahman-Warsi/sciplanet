@@ -40,7 +40,6 @@ function HomeCenter(props) {
 function Home() {
   return (
     <div>
-      <PageHeader />
       <br/>
       <Container>
         <Row>
