@@ -7,7 +7,7 @@ function AppRouter() {
   return (
     <HashRouter>
       <Routes>
-          <Route path="/" element={<Home />}>
+          <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/Facilities" element={<Facilities />} />
