@@ -1,5 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import PageHeader from './PageHeader.js';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 import abt1 from './images/aboutus1.jpg';
 import abt2 from './images/aboutus2.jpg';
