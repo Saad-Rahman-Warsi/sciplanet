@@ -9,11 +9,11 @@ import abt2 from './images/aboutus2.jpg';
 function AboutUs() {
   return (
     <div>
-  
+      <br /><h3> About Us </h3><br /><br />
      <Container fluid style={{
           backgroundColor: '#F2F4F4', textAlign: 'left'
         }}>
-        <h3> About Us </h3><br /><br />
+        
       <Row>
         <Col xs={8}>
           <h3>Our Story</h3>
