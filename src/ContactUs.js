@@ -10,21 +10,23 @@ function ContactUs() {
   return (
     <div>
       <br /><h3> Contact Us </h3><br /><br />
-
+      <Col xs={6}>
       <Form>
-      <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+      <Form.Group className="mb-3" controlId="contactUsForm.ControlInput1">
         <Form.Label>Name</Form.Label>
         <Form.Control type="email" placeholder="First Name Last Name" />
       </Form.Group>
-      <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+      <Form.Group className="mb-3" controlId="contactUsForm.ControlInput1">
         <Form.Label>Email</Form.Label>
         <Form.Control type="email" placeholder="name@example.com" />
       </Form.Group>
-      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+      <Form.Group className="mb-3" controlId="contactUsForm.ControlTextarea1">
         <Form.Label>Message</Form.Label>
-        <Form.Control as="textarea" rows={3} />
+        <Form.Control as="textarea" rows={5} />
       </Form.Group>
+      <Button as="input" type="submit" value="Submit" />{' '}
     </Form>
+    </Col>
      
     <PageFooter />
       </div>
