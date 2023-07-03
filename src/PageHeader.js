@@ -36,7 +36,7 @@ function PageHeader() {
               <NavDropdown.Item href="https://saad-rahman-warsi.github.io/sciplanet/#/Facilities">Use Advanced Facilities</NavDropdown.Item>
             </NavDropdown>
 
-            <Nav.Link href="https://saad-rahman-warsi.github.io/sciplanet/#/AboutUs" style={{color: 'White'}}>Contact Us</Nav.Link>
+            <Nav.Link href="https://saad-rahman-warsi.github.io/sciplanet/#/ContactUs" style={{color: 'White'}}>Contact Us</Nav.Link>
             
           </Nav>
         </Navbar.Collapse>
