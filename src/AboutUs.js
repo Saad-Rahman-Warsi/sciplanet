@@ -1,5 +1,5 @@
 import Container from 'react-bootstrap/Container';
-import PageHeader from './PageHeader.js';
+import PageFooter from './PageFooter.js';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
@@ -10,11 +10,10 @@ function AboutUs() {
   return (
     <div>
   
-     <h1> AboutUs </h1>
      <Container fluid style={{
           backgroundColor: '#F2F4F4', textAlign: 'left'
         }}>
-
+        <h3> About Us </h3><br /><br />
       <Row>
         <Col xs={8}>
           <h3>Our Story</h3>
@@ -46,6 +45,7 @@ function AboutUs() {
       </Row>
 
     </Container>
+    </PageFooter />
       </div>
   );
 }
