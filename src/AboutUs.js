@@ -29,6 +29,7 @@ function AboutUs() {
           <img className="d-block w-100" src={abt1} alt="Our Story" />
         </Col>
       </Row>
+      <hr />
 
       <Row>
         <Col xs={4}>
