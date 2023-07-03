@@ -45,7 +45,7 @@ function AboutUs() {
       </Row>
 
     </Container>
-    </PageFooter />
+    <PageFooter />
       </div>
   );
 }
