@@ -11,6 +11,7 @@ function ContactUs() {
   return (
     <div>
       <br /><h3> Contact Us </h3><br /><br />
+      <Row>
       <Col xs={3}></Col>
       <Col xs={6}>
         <Form>
@@ -30,6 +31,7 @@ function ContactUs() {
         </Form>
     </Col>
     <Col xs={3}></Col>
+    </Row>
      
     <PageFooter />
       </div>
